@@ -1,0 +1,16 @@
+# Backup files from text editors
+*~
+.*.swp
+
+# Xcode crap
+*pbxuser
+*perspectivev3
+*xcuserdata
+project.xcworkspace
+
+# Junk files on Mac OS X
+*.DS_Store
+
+# build output
+build
+
