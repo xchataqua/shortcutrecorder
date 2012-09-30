@@ -81,7 +81,10 @@
 	
 	[self _privateInit];
 
-	if ([aDecoder allowsKeyedCoding]) {
+	if (autosaveName || hasKeyChars || allowedFlags || requiredFlags) {
+		// Value maybe set by User defined Runtime Attribute
+	} else if ([aDecoder allowsKeyedCoding]) {
+        
 		autosaveName = [[aDecoder decodeObjectForKey: @"autosaveName"] retain];
 		
 		keyCombo.code = [[aDecoder decodeObjectForKey: @"keyComboCode"] shortValue];
