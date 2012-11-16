@@ -633,6 +633,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -660,6 +661,7 @@
 				);
 				PRODUCT_NAME = ShortcutRecorder;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
