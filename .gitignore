@@ -14,6 +14,3 @@ project.xcworkspace
 # build output
 build
 
-# built library to avoid xcode4 archieve error
-Frameworks/SGPalette.ibplugin
-
